@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "cobbleclub_crates",
+  "version": "${version}",
+  "name": "CobbleClub Crates",
+  "description": "Pokemon-styled crates with Gems, virtual keys, and animated Cobblemon rewards.",
+  "authors": ["CobbleClub"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.cobbleclub.crates.CobbleClubCrates"],
+    "client": ["com.cobbleclub.crates.client.CobbleClubCratesClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*",
+    "fabric-language-kotlin": "*",
+    "cobblemon": ">=1.8.0"
+  },
+  "suggests": {
+    "pokeblocks": ">=1.5.0",
+    "cobbleclub_server": "*"
+  }
+}

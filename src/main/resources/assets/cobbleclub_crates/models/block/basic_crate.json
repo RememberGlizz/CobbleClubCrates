@@ -1,0 +1,10 @@
+{
+  "parent": "cobbleclub_crates:block/crate_base",
+  "textures": {
+    "primary": "cobbleclub_crates:block/basic_primary",
+    "accent": "cobbleclub_crates:block/basic_accent",
+    "dark": "cobbleclub_crates:block/basic_dark",
+    "light": "cobbleclub_crates:block/basic_light",
+    "panel": "cobbleclub_crates:block/basic_primary"
+  }
+}

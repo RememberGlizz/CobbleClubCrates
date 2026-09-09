@@ -1,0 +1,8 @@
+CobbleClub Crates Cobblemon 1.8.0 compatibility update
+
+- Gradle Cobblemon dependency changed from Modrinth version kF7CvxTo (1.7.3) to YgmyyFcs (1.8.0 for MC 1.21.1 Fabric).
+- fabric.mod.json now requires Cobblemon >=1.8.0.
+- PokemonRewardRenderer updated for the Cobblemon 1.8 drawProfilePokemon API:
+  applyProfileTransform boolean -> ProfileTransformType.PROFILE
+  added blockLight argument (13).
+- Crate reward tables, key/gem economy integration, Pokeblocks rewards and crate configuration were not changed.

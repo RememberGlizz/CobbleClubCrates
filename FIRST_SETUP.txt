@@ -1,0 +1,53 @@
+COBBLECLUB CRATES 1.0.0 - FIRST SETUP
+=====================================
+
+REQUIREMENTS
+- Minecraft 1.21.1
+- Java 21
+- Fabric Loader 0.17.2 or newer
+- Fabric API 0.116.10+1.21.1
+- Fabric Language Kotlin
+- Cobblemon 1.8.0
+
+OPTIONAL POKEBLOCKS DOLL SUPPORT
+- Install Pokeblocks 1.5.0+ and its required GeckoLib version on both the
+  server and every client.
+- Normal Pokédolls are added automatically to the Vote Crate.
+- Shiny Pokédolls are added automatically to the Shiny Pokémon Crate.
+- Legendary-rarity Pokédolls are added automatically to the Legendary Crate.
+- This also works with existing crate JSON files; do not delete your configs.
+
+INSTALL
+1. Put cobbleclub-crates-2.1.1-cobblemon1.8.jar in the server's mods folder.
+2. Put the same JAR in your client modpack's mods folder.
+3. Restart the server and client.
+
+CREATE YOUR FIRST CRATE
+1. Stand near the spot where it should appear.
+2. Look directly at the floor block.
+3. Run: /ccrates place legendary legendary
+4. Give yourself keys: /ccrates key give YourName legendary_key 10
+5. Give yourself Gems: /ccrates gems give YourName 10000
+6. Right-click the crate.
+
+IMPORTANT COMMANDS
+/crates
+/gems
+/keys
+/ccrates reload
+/ccrates place <crate> <basic|vote|shiny|legendary>
+/ccrates remove
+/ccrates preview <crate> [player]
+/ccrates gems give|take|set <player> <amount>
+/ccrates key give|take|set <player> <configured_key_id> <amount>
+
+Key commands reject arbitrary names. Press Tab after the player name to see
+the allowed configured key IDs.
+
+CONFIGURATION
+Crates generate in config/cobbleclub-crates/crates/ after the first full
+server start. Edit the JSON files, then run /ccrates reload.
+
+PLAYER DATA
+Gems and virtual keys are saved in the world's
+data/cobbleclub-crates-players.json file.

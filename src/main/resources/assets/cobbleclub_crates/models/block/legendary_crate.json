@@ -1,0 +1,11 @@
+{
+  "parent": "cobbleclub_crates:block/crate_ball_base",
+  "textures": {
+    "primary": "cobbleclub_crates:block/legendary_accent",
+    "accent": "cobbleclub_crates:block/legendary_accent",
+    "dark": "cobbleclub_crates:block/legendary_accent",
+    "light": "cobbleclub_crates:block/legendary_accent",
+    "panel": "cobbleclub_crates:block/legendary_accent",
+    "ball": "cobblemon:item/poke_balls/models/master_ball"
+  }
+}

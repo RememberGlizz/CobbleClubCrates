@@ -1,0 +1,11 @@
+{
+  "parent": "cobbleclub_crates:block/crate_ball_base",
+  "textures": {
+    "primary": "cobbleclub_crates:block/shiny_primary",
+    "accent": "cobbleclub_crates:block/shiny_primary",
+    "dark": "cobbleclub_crates:block/shiny_primary",
+    "light": "cobbleclub_crates:block/shiny_primary",
+    "panel": "cobbleclub_crates:block/shiny_primary",
+    "ball": "cobblemon:item/poke_balls/models/ultra_ball"
+  }
+}
