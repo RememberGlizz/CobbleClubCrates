@@ -1,5 +1,5 @@
 # CC Crates
-
+------------
 An original Fabric crate system for Minecraft 1.21.1 and Cobblemon 1.8.0.
 
 ## Features
