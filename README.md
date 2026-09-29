@@ -1,5 +1,5 @@
 ## CC Crates  
-<img width="70" height="70" alt="download" src="https://github.com/user-attachments/assets/bbf2de16-4915-4051-b4a0-0c0fbdde0a6f" />
+<img width="100" height="100" alt="download" src="https://github.com/user-attachments/assets/bbf2de16-4915-4051-b4a0-0c0fbdde0a6f" />
 
 ------------
 An original Fabric crate system for Minecraft 1.21.1 and Cobblemon 1.8.0.
